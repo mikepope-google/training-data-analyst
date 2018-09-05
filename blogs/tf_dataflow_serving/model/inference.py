@@ -7,7 +7,7 @@ from oauth2client.client import GoogleCredentials
 tf.logging.set_verbosity(tf.logging.ERROR)
 
 SAVED_MODEL_DIR = 'trained/v1'
-PROJECT = '<PROJECT_ID>'
+PROJECT = '[PROJECT_ID]'
 CMLE_MODEL_NAME = 'babyweight_estimator'
 CMLE_MODEL_VERSION = 'v1'
 
